@@ -47,5 +47,6 @@ public final class SpringVersion {
 		Package pkg = SpringVersion.class.getPackage();
 		return (pkg != null ? pkg.getImplementationVersion() : null);
 	}
+System.out.print("HI");
 
 }
